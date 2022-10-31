@@ -1,0 +1,7 @@
+__pycache__/
+.vscode
+temp_data/
+video_data/
+main.py
+output/
+docker-compose.dev.yaml

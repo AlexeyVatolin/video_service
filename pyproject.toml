@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "hls-video"
+version = "0.1.0"
+description = ""
+authors = ["Alexey Vatolin <vatolinalex@gmail.com>"]
+readme = "README.md"
+packages = [{include = "hls_video"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ffmpeg-python = "^0.2.0"
+tornado = "^6.2"
+psycopg2 = "^2.9.5"
+psycopg2-binary = "^2.9.5"
+SQLAlchemy = "^1.4.42"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

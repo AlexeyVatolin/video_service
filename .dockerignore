@@ -1,0 +1,5 @@
+pg_data/
+video_data/
+temp_data/
+output/
+.vscode/
